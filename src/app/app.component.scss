@@ -1,0 +1,64 @@
+.container {
+  height: 100%;
+}
+
+nav {
+  background-color: black;
+  text-align: center;
+  padding: 16px;
+  font-size: 20px;
+  color: white;
+}
+
+.warning-input-message {
+  color: red;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  input {
+    width: 200px;
+    padding: 4px;
+    margin-top: 20px;
+    height: 24px;
+  }
+  button {
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 12px;
+    height: 40px;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 4px 0;
+  :hover {
+    cursor: pointer;
+  }
+}
+
+img.mat-card-image {
+  width: 40%;
+  margin-right: 4px;
+  margin-top: -16px;
+  margin-bottom: -16px;
+  margin-left: -16px;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.line-clamp {
+  overflow-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+}
+
+
