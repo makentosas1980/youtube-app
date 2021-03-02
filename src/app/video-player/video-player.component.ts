@@ -27,7 +27,7 @@ export class VideoPlayerComponent implements OnInit {
 
   ngAfterViewInit(): void {
     this.onResize();
-    window.addEventListener("resize", this.onResize);
+    window.addEventListener('resize', this.onResize);
   }
 
   onResize = (): void => {

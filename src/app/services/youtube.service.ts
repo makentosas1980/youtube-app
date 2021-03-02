@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
 })
 export class YoutubeService {
   //Register with youtube services and get your own API_Key
-  apiKey: String = '';
+  apiKey: String = ' ';
 
   constructor(public http: HttpClient) { }
 
