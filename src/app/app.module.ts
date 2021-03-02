@@ -10,10 +10,14 @@ import { ScrollingModule } from "@angular/cdk/scrolling";
 import { YouTubePlayerModule } from "@angular/youtube-player";
 
 import { AppComponent } from './app.component';
+import { VideosComponent } from './videos/videos.component';
+import { VideoPlayerComponent } from './video-player/video-player.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    VideosComponent,
+    VideoPlayerComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,7 @@ import { AppComponent } from './app.component';
     ScrollingModule,
     YouTubePlayerModule
   ],
-  providers: [],
+  providers: [VideoPlayerComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
